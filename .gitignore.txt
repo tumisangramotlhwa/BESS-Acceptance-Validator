@@ -1,0 +1,16 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Plots and generated CSVs
+*.png
+*.csv
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# IDE/editor specific files (optional)
+.vscode/
+.idea/

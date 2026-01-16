@@ -1,0 +1,9 @@
+tests:
+  - name: frequency_bounds
+    signal: frequency_hz
+    min: 49.8
+    max: 50.2
+
+  - name: power_ramp_rate
+    signal: power_kw
+    max_delta_per_s: 50
