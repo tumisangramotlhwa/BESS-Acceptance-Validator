@@ -1,6 +1,8 @@
 # Acceptance Validator
 
-A Python tool for validating and visualizing utility-scale BESS telemetry.
+A Python tool for validating and visualizing utility-scale BESS telemetry. During utility-scale BESS commissioning and acceptance testing, engineers must verify that telemetry (power, frequency, voltage) meets contractual and grid-code acceptance criteria. In practice, real telemetry often contains dropouts, timing gaps, and noise that complicate validation and reporting.
+
+This tool was built to automate acceptance-style checks on BESS telemetry and generate clear, engineer-readable outputs for commissioning and validation workflows.
 
 ## Features
 
@@ -19,6 +21,7 @@ Install dependencies:
 pip install -r requirements.txt
 
 ## Repository Structure
+```
 
 acceptance-validator/
 ├─ validator/                 # Python package
@@ -27,6 +30,7 @@ acceptance-validator/
 ├─ scripts/                   # Pipeline scripts
 ├─ requirements.txt
 └─ README.md
+```
 
 ## Run the full pipeline
 
