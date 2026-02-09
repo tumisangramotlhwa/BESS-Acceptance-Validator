@@ -11,6 +11,18 @@ This tool was built to automate acceptance-style checks on BESS telemetry and ge
 - Handle telemetry dropouts and fill missing values with a rolling average
 - Visualize before/after filled data with filled samples explicitly marked
 
+## Typical Use Case:
+
+- Engineer receives BESS telemetry from commissioning or HiL testing
+
+- Acceptance criteria are defined in a YAML ruleset
+
+- Validator flags violations (ramp rate, frequency bounds, etc.)
+
+- Dropouts are handled deterministically and explicitly marked
+
+- Plots and summaries are generated for acceptance review
+
 ## Requirements
 
 - Python 3.10+
